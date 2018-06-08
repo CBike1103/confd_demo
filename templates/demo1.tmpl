@@ -1,3 +1,5 @@
-Hello, this is KV pairs.
-{{getv "/demo1/test"}}
-END
+<php?
+
+{{range gets "/demo1/*"}}
+    ${{.Key}} = "{{.Value}}";
+{{end}}
