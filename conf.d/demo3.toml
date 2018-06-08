@@ -1,0 +1,7 @@
+[template]
+src = "demo3.tmpl"
+dest = "/etc/confd/demo3.log"
+keys = [
+  "/demo3",
+]
+reload_cmd = "python3 /etc/confd/demo.py demo3"

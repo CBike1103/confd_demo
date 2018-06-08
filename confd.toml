@@ -1,0 +1,7 @@
+log-level = "debug"
+backend = 'etcd'
+noop = false
+watch = true
+nodes = [
+  "http://127.0.0.1:2379",
+]
