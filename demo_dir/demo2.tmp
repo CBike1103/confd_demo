@@ -1,0 +1,9 @@
+<php?
+
+
+    $test = "foo1";
+
+    $test2 = "foo22";
+
+    $test3 = "foosda";
+
