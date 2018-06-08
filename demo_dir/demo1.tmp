@@ -1,7 +1,8 @@
 <php?
 
 
-    $test = "foo5";
+    $config["/demo1/test"] = "foo5";
 
-    $test2 = "foo22";
+    $config["/demo1/test0"] = "foo32";
 
+    $config["/demo1/test2"] = "foo22";
