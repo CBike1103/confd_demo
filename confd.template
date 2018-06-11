@@ -1,0 +1,6 @@
+[template]
+src = "%s"
+dest = "%s"
+keys = [
+  "%s",
+]
