@@ -1,5 +1,5 @@
 <php?
 
-{{range gets "/demo3/*"}}
-    $config["{{.Key}}"] = "{{.Value}}";
+{{with gets "/demo3/test"}}
+    $val = "{{.Value}}";
 {{end}}

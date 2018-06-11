@@ -2,5 +2,5 @@
 src = "demo1.tmpl"
 dest = "/etc/confd/demo_dir/demo1.tmp"
 keys = [
-  "/demo1",
+  "/demo1/test",
 ]
